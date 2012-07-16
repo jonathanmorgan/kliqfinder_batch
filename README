@@ -1,0 +1,9 @@
+This is a small project that tracks development of an NT batch file that allows users of kliqfinder to process multiple networks in batches, instead of having to run each separately.
+
+To run:
+- install the batch file in the kliqfinder home directory (usually c:\kliqfind).
+- create a list of paths of network files that you want to process.
+- Invoke the batch, passing it the path to your data file list and the type of data in the files.
+- arguments:
+	- 1) path of the file that contains the list of network files you want to process.
+	- 2) whether your data is 1-mode (1) or 2-mode (2).
